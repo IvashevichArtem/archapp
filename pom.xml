@@ -49,6 +49,19 @@
                 <version>1.5.5.Final</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.misis</groupId>
+                <artifactId>shared-contracts</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <!-- Зависимость для RabbitMQ -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-amqp</artifactId>
+                <version>3.4.2</version> <!-- или ваша версия Spring Boot -->
+            </dependency>
+
             <!-- OpenAPI -->
             <dependency>
                 <groupId>org.springdoc</groupId>
